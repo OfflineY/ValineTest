@@ -7,7 +7,9 @@
     <title>ValineTest</title>
 </head>
 <body>
-    <div class="vcomment"></div>
+<div class="box">
+<div class="vcomment"></div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/valine"></script>
 <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script>-->
 <script>
@@ -54,5 +56,36 @@
     } 
     })
 </script>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: #eee;
+    }
+    .vpanel{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+        color: #4a4a4a;
+        background-color: #fff;
+        background-image: url(https://bulma.io/images/hab/newsletter-strip.png);
+        background-repeat: repeat-x;
+        background-size: 96px 16px;
+    }
+    .vcards{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+        color: #4a4a4a;
+        background-color: #fff;
+    }
+    .txt-right{
+        display: none !important;
+    }
+</style>
 </body>
 </html>
