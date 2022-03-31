@@ -10,6 +10,15 @@
 
 <body>
     <div class="box">
+        <div class="box-1">
+            <h1>🔮 ValineTest</h1>
+            <p>这里是一个 ValineTest ，你可以在这里畅所欲言。评论支持 MD 语法（可以发图片），具体语法标准请详见
+                <a target="_blank"
+                    href="https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GithubDocs-MD</a>。表情采用
+                Bilibili-E-TV 开源库，提交更多表情请联系我。此项目也开源在
+                <a target="_blank" href="https://github.com/Offline2008/ValineTest">Github</a>
+            </p>
+        </div>
         <div class="vcomment"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/valine"></script>
@@ -65,6 +74,16 @@
             color: #1e1e1e;
         }
 
+        .box-1 {
+            padding: 20px;
+            padding-bottom: 0;
+        }
+
+        .box-1 p {
+            padding: 15px 0;
+            color: #6e6e6e;
+        }
+
         body {
             background: #f3f5f7;
             max-width: 800px;
@@ -72,7 +91,7 @@
         }
 
         .vpanel {
-            padding: 25px 20px 0 20px;
+            padding: 25px 20px 10px 20px;
             margin: 20px;
             border-radius: 0.5rem;
             border: 1px solid #e6e6e6;
@@ -80,6 +99,24 @@
             background-image: url(https://bulma.io/images/hab/newsletter-strip.png);
             background-repeat: repeat-x;
             background-size: 96px 16px;
+        }
+
+        .v[data-class="v"] .vwrap .vheader .vinput{
+            border-radius: 8px 8px 0 0 !important;
+            overflow: hidden;
+        }
+
+        .v[data-class="v"] .vwrap .vheader .vinput:hover,
+        .v[data-class="v"] .vwrap .vheader .vinput:focus{
+            border-bottom: 1px #175ceb dashed;
+        }
+
+        .v[data-class="v"] .vwrap .vheader .vinput:active{
+            border-bottom: 1px #175ceb dashed;
+            background: rgba(23, 94, 235, 0.1);
+        }
+        .vat{
+            color: #1247d9 !important;
         }
 
         .vcards {
