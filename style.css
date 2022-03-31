@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1e1e1e;
+}
+
+.box-1 {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.box-1 p {
+    padding: 15px 0;
+    color: #6e6e6e;
+}
+
+body {
+    background: #f3f5f7;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.vnick{
+    font-weight: 800;
+}
+.vnick:hover{
+    color: #1247d9 !important;
+}
+
+.vpanel {
+    padding: 25px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 0.5rem;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    background-image: url(newsletter-strip.png);
+    background-repeat: repeat-x;
+    background-size: 96px 16px;
+}
+.v[data-class="v"] .vwrap .vheader .vinput:hover,
+.v[data-class="v"] .vwrap .vheader .vinput:focus{
+    border-bottom: 1px #175ceb dashed;
+}
+
+.v[data-class="v"] .vwrap .vheader .vinput:active{
+    border-bottom: 1px #175ceb dashed;
+    background: rgba(23, 94, 235, 0.1);
+}
+.vat{
+    color: #1247d9 !important;
+}
+
+.vcards {
+    margin: 20px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    width: auto;
+}
+
+.vwrap {
+    margin: 0 auto !important;
+    border: none !important;
+    padding: 0 !important;
+    width: auto !important;
+    overflow: visible !important;
+}
+
+.vbtn {
+    border: 0 !important;
+    padding: 5px 20px !important;
+    font-size: 14px !important;
+    border-radius: 4px !important;
+    background: #1e6fff !important;
+    color: #fff !important;
+    transition: none;
+}
+
+.vbtn:hover {
+    background: #175ceb !important
+}
+
+.vbtn:active {
+    background: #1247d9 !important;
+    box-shadow: 0 0 0 2px rgba(23, 94, 235, 0.3);
+}
+
+.vicon {
+    padding: 3px;
+    border-radius: 4px !important;
+}
+
+.vrow {
+    padding: 5px 0 !important;
+}
+
+svg {
+    position: relative;
+    top: 3px;
+}
+
+.vicon:active {
+    background: #dfdfdf !important;
+}
+
+.vcount {
+    padding: 0 26px !important;
+    font-weight: 800 !important;
+    font-size: 23px !important;
+}
+
+.vcards {
+    width: auto !important;
+    padding: 0 20px;
+}
+
+.txt-right {
+    display: none !important;
+}
