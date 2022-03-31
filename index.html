@@ -21,7 +21,7 @@
         </div>
         <div class="vcomment"></div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/valine"></script>
+    <script src="./Valine.min.js"></script>
     <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script>-->
     <script>
         var path = window.location.pathname.replace('index.html', '');
@@ -32,6 +32,7 @@
             appId: 'QFye5OancRzUrIAeyH5oTnsM-MdYXbMMI',
             appKey: 'XL1GI10mou72zkQBLfwL3oaq',
             placeholder: '请输入评论',
+            admin_email:'2937931129@qq.com',
             avatar: 'mp',
             path: path,
             enableQQ: true,
@@ -88,6 +89,13 @@
             background: #f3f5f7;
             max-width: 800px;
             margin: 0 auto;
+        }
+
+        .vnick{
+            font-weight: 800;
+        }
+        .vnick:hover{
+            color: #1247d9 !important;
         }
 
         .vpanel {
