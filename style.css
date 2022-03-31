@@ -5,13 +5,20 @@
 }
 
 .box-1 {
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     padding-bottom: 0;
 }
 
 .box-1 p {
-    padding: 15px 0;
+    padding: 25px 20px;
     color: #6e6e6e;
+    line-height: 28px;
+}
+
+
+.box-1 p a{
+    color: #6e6e6e;
+    font-weight: 800;
 }
 
 body {
