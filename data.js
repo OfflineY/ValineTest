@@ -16,7 +16,7 @@ new Valine({
     lang: isEN ? 'en' : 'zh-cn',
     visitor: true,
     enableQQ: true,
-    emojiCDN: '//i0.hdslb.com/bfs/emote/',
+    emojiCDN: 'https://i0.hdslb.com/bfs/emote/',
     emojiMaps: {
         "口罩":"3ad2f66b151496d2a5fb0a8ea75f32265d778dd3.png",
         "doge":"3087d273a78ccaff4bb1e9972e2ba2a7583c9f11.png",
