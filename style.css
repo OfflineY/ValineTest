@@ -21,7 +21,7 @@ body {
 }
 
 .vnick{
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 .vnick:hover{
     color: #1247d9 !important;
