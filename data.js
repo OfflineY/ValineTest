@@ -9,6 +9,7 @@ new Valine({
     admin_email:'2937931129@qq.com',
     avatar: 'mp',
     path: path,
+    notify: true,
     enableQQ: true,
     serverURLs: 'https://qfye5oan.api.lncldglobal.com',
     recordIP: true,
