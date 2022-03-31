@@ -62,20 +62,20 @@
         * {
             padding: 0;
             margin: 0;
-            color: #4a4a4a;
+            color: #1e1e1e;
         }
 
         body {
-            background: #eee;
+            background: #f3f5f7;
             max-width: 800px;
             margin: 0 auto;
         }
 
         .vpanel {
-            padding: 20px;
+            padding: 25px 20px 0 20px;
             margin: 20px;
             border-radius: 0.5rem;
-            box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+            border: 1px solid #e6e6e6;
             background-color: #fff;
             background-image: url(https://bulma.io/images/hab/newsletter-strip.png);
             background-repeat: repeat-x;
@@ -83,20 +83,66 @@
         }
 
         .vcards {
-            padding: 0 20px;
             margin: 20px;
             border-radius: 0.5rem;
-            box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
             background-color: #fff;
+            border: 1px solid #e6e6e6;
+            width: auto;
         }
 
-        .v[data-class="v"] .vcount {
+        .vwrap {
+            margin: 0 auto !important;
+            border: none !important;
+            padding: 0 !important;
+            width: auto !important;
+            overflow: visible !important;
+        }
+
+        .vbtn {
+            border: 0 !important;
+            padding: 5px 20px !important;
+            font-size: 14px !important;
+            border-radius: 4px !important;
+            background: #1e6fff !important;
+            color: #fff !important;
+            transition: none;
+            margin-bottom: 20px;
+        }
+
+        .vbtn:hover {
+            background: #175ceb !important
+        }
+
+        .vbtn:active {
+            background: #1247d9 !important;
+            box-shadow: 0 0 0 2px rgba(23, 94, 235, 0.3);
+        }
+
+        .vicon {
+            padding: 3px;
+            border-radius: 4px !important;
+        }
+
+        .vrow {
+            padding: 5px 0 !important;
+        }
+
+        svg {
+            position: relative;
+            top: 3px;
+        }
+
+        .vicon:active {
+            background: #dfdfdf !important;
+        }
+
+        .vcount {
             padding: 0 26px;
             font-weight: 800;
             font-size: 23px;
         }
 
-        .v[data-class="v"] .vcards {
+        .vcards {
             width: auto;
         }
 
